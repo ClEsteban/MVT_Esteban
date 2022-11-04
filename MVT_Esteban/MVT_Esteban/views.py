@@ -3,4 +3,6 @@ from datetime import datetime
 from django.template import Template, Context, loader
 
 def familiares(request):
-    return HttpResponse("Lista de Familiares")
+    hoy = datetime.now()
+    lista = 
+    return HttpResponse(f"<h1>Lista de Familiares</h1> Hoy es {hoy}")
